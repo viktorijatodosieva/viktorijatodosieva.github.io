@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roze {
+    width: 70%;
+    height: 600px;
+    background: pink;
+    padding: 200px 380px 120px 150px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.roze h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 3.3em;
+    margin-bottom:20px;
+
+}
+
+.roze p {
+    color: black;
+}
+
+.img1 {
+    border-radius: 50%;
+    float: right;
+    width: 450px;
+    height: 450px;
+    margin-top: -540px;
+    clear: both;
+    margin-right: -850px;
+    border: 10px white solid;
+    padding: 30px;
+}
+
+.belo {
+    width: 30%;
+    display: inline-block;
+}
+
+nav {
+    height: 30px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 120px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+}
+#active:hover{
+    color:black;
+}
+#active {
+    color:deeppink;
+}
+nav a:hover {
+    color: #1e8fff;
+}
+
+.about_me {
+    height: 400px;
+    padding-left: 150px;
+
+}
+
+.br {
+    width: 40%;
+    margin-left: 60px;
+    margin-top: 120px;
+    display: inline-block;
+}
+
+.br h1 {
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.1em;
+
+}
+
+.krugovi {
+    width: 30%;
+    display: inline-block;
+    margin-left: 200px;
+
+}
+
+.vtorite2 div, .prvite2 div {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:7px;
+    border: 3px solid pink;
+    padding: 10px;
+
+}
+
+.prvite2, .vtorite2 {
+
+    display: flex;
+}
+
+.krugovi a {
+    padding-top: 50px;
+    display: block;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+    font-weight: bolder;
+
+
+    text-align: center;
+
+}
+
+.krugovi a:hover {
+    color: dodgerblue;
+}
+#kec {
+    background: lightpink;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.education {
+    display:flex;
+    height:400px;
+    justify-content: flex-end;
+    margin-top:100px
+}
+
+.desno {
+    width:70%;
+}
+.levo img {
+    width: 400px;
+    float: left;
+    margin-right: -120px;
+    margin-top: 70px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 3;
+    border: 5px solid white;
+    /*padding:10px;*/
+
+}
+.desno {
+    background: pink;
+    padding: 40px 120px 150px 250px
+}
+.desno h1 {
+    margin-bottom:20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.1em;
+}
+.section {
+    margin-top:150px;
+    background: pink;
+    height:550px;
+    padding-top:20px;
+}
+.contact {
+    width:30%;
+    margin:10px auto;
+    background: rgba(255, 255, 255, 0.38);
+    height:500px;
+
+}
+
+.contact h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.1em;
+
+}
+.contact form {
+    padding:30px 55px;
+}
+
+.contact h1 {
+    padding-left:40px;
+    padding-top:30px;
+}
+
+input
+{   width:277px;
+    height:27px;
+    margin-bottom:15px;
+    margin-top:5px;
+}
+
+.emaill{
+    margin-left:250px;
+    margin-top:10px;
+}
+
+.footer {
+    margin-top:25px;
+    background: rgba(0, 0, 0, 0.77);
+    height:40px;
+    padding-top:10px;
+    text-align:center;
+    color:white;
+}
+
+.hobby {
+    background: url("run.jpg") no-repeat 70%;
+    height: 600px;
+    margin-top:80px;
+    border-right: 15px solid #d0d0d0;
+    border-bottom: 20px solid #8c8c8c;
+}
+.hobby p {
+    color: #ffffff;
+    width:50%;
+    padding: 193px 50px;
+    background: rgba(93, 2, 52, 0.29);
+}
+
+
